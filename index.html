@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basha Guest Rooms | Book Your Stay</title>
+
+  <meta name="description" content="Basha Guest Rooms in Puttaparthi, Andhra Pradesh. Non-AC single, double and family rooms at affordable prices. Book your stay and contact us directly on WhatsApp." />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <!-- WHATSAPP FLOAT BUTTON -->
+<div class="wa-float">
+  <a
+    href="https://wa.me/919381214611?text=Hi%20Basha%20Guest%20Rooms,%20I%20would%20like%20to%20book%20a%20room."
+    target="_blank"
+    aria-label="Chat on WhatsApp"
+  >
+    <!-- WhatsApp SVG Logo -->
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="28"
+      height="28"
+      fill="white"
+      viewBox="0 0 16 16"
+    >
+      <path d="M13.601 2.326A7.854 7.854 0 0 0 8.017.003C3.796-.092.274 3.324.155 7.543a7.9 7.9 0 0 0 1.15 4.15L0 16l4.42-1.147a7.9 7.9 0 0 0 3.556.874h.003c4.22.001 7.741-3.414 7.86-7.632a7.85 7.85 0 0 0-2.238-5.769zM8.03 14.479h-.002a6.54 6.54 0 0 1-3.345-.917l-.24-.144-2.622.681.699-2.56-.157-.263a6.56 6.56 0 0 1-1.003-3.5c.093-3.48 2.993-6.315 6.47-6.315a6.49 6.49 0 0 1 4.611 1.919 6.51 6.51 0 0 1 1.874 4.652c-.11 3.477-2.992 6.347-6.385 6.347zm3.68-4.841c-.2-.1-1.177-.578-1.36-.642-.183-.061-.317-.092-.45.093-.133.183-.517.642-.634.774-.117.133-.233.142-.433.05-.2-.1-.843-.31-1.604-.99-.592-.527-.99-1.178-1.106-1.378-.117-.2-.012-.307.088-.407.09-.089.2-.233.3-.35.1-.117.133-.2.2-.333.067-.133.033-.25-.017-.35-.05-.1-.45-1.083-.616-1.483-.162-.39-.328-.337-.45-.343l-.383-.007c-.133 0-.35.05-.533.25-.183.2-.7.683-.7 1.665 0 .983.717 1.934.817 2.067.1.133 1.413 2.157 3.425 3.025.48.207.855.33 1.147.423.483.153.923.132 1.271.08.387-.058 1.177-.48 1.343-.945.167-.467.167-.867.117-.95-.05-.084-.183-.133-.383-.233z"/>
+    </svg>
+  </a>
+</div>
+
+  <!-- NAVBAR -->
+  <header>
+    <div class="nav">
+      <div class="logo" data-animate="fade-down">
+        Basha <span>Guest Rooms</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#booking">Book</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#gallery">Photos</a>
+        <a href="#location">Location</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#booking" class="nav-cta">Book Now</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-left" data-animate="fade-up">
+        <div class="hero-badge">
+          <span>⭐</span>
+          <span>Comfortable Non-AC Rooms in Puttaparthi</span>
+        </div>
+        <h1 class="hero-title">
+          Stay at <br />Basha Guest Rooms
+        </h1>
+        <p class="hero-subtitle">
+          Clean and comfortable Non-AC Single, Double and Family rooms near key
+          locations in Puttaparthi, Andhra Pradesh. Ideal for families,
+          devotees and travellers looking for an affordable stay.
+        </p>
+        <div class="hero-buttons">
+          <button class="btn-primary" data-scroll="#booking">
+            Book Your Room
+          </button>
+          <button class="btn-outline" data-scroll="#rooms">
+            View Room Types
+          </button>
+        </div>
+        <div class="hero-meta">
+          <span>
+            <strong>Check-in / Check-out</strong>
+            24×7 flexible (subject to availability)
+          </span>
+          <span>
+            <strong>Location</strong>
+            Puttaparthi, Andhra Pradesh
+          </span>
+          <span>
+            <strong>Support</strong>
+            Call & WhatsApp available
+          </span>
+        </div>
+      </div>
+
+      <!-- BOOKING CARD -->
+      <div class="booking-card" id="booking" data-animate="fade-left">
+        <h2>Book Your Stay</h2>
+        <p>Send your booking request – we’ll confirm quickly by call or WhatsApp.</p>
+        <form id="booking-form">
+          <div class="booking-grid">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="Your full name"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone / WhatsApp</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                required
+                placeholder="Your mobile number"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="checkin">Check-in Date</label>
+              <input type="date" id="checkin" name="checkin" required />
+            </div>
+
+            <div class="form-group">
+              <label for="checkout">Check-out Date</label>
+              <input type="date" id="checkout" name="checkout" required />
+            </div>
+
+            <div class="form-group">
+              <label for="room-type">Room Type</label>
+              <select id="room-type" name="roomType" required>
+                <option value="">Select room type</option>
+                <option value="Non-AC Single">Non-AC Single</option>
+                <option value="Non-AC Double">Non-AC Double</option>
+                <option value="Family Room">Family Room</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="guests">No. of Guests</label>
+              <input
+                type="number"
+                id="guests"
+                name="guests"
+                min="1"
+                max="10"
+                value="2"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Special requests (optional)</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Any extra details – late check-in, extra bed, etc."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary">
+            Submit Booking Request
+          </button>
+          <p class="booking-note">
+            This will open WhatsApp with your booking details ready to send.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- ABOUT -->
+    <section id="about">
+      <h2 class="section-title" data-animate="fade-up">About Basha Guest Rooms</h2>
+      <p class="section-subtitle" data-animate="fade-up">
+        We offer simple, clean and budget-friendly Non-AC rooms with easy access to
+        important places in Puttaparthi.
+      </p>
+
+      <div class="about-layout">
+        <div data-animate="fade-right">
+          <p>
+            Basha Guest Rooms is designed to give guests a peaceful and
+            comfortable stay. Whether you are visiting for darshan, family
+            functions, or a short trip, we provide neat rooms and friendly
+            service at an affordable price.
+          </p>
+          <p style="margin-top: 0.5rem;">
+            Our team is always ready to help you with check-in, local
+            guidance, and travel support. We focus on cleanliness, safety, and
+            a homely environment for families and solo travellers.
+          </p>
+
+          <div class="highlights">
+            <div class="highlight-card">
+              <strong>✅ Clean & Hygienic</strong>
+              Regular housekeeping and sanitized rooms.
+            </div>
+            <div class="highlight-card">
+              <strong>📍 Good Location</strong>
+              Easy access to key spots in Puttaparthi.
+            </div>
+            <div class="highlight-card">
+              <strong>👨‍👩‍👧 Family-Friendly</strong>
+              Suitable for solo travellers & families.
+            </div>
+          </div>
+        </div>
+
+        <div class="about-photo" data-animate="fade-left">
+          <!-- Replace with your real hotel photo -->
+          <img
+            src="assets/images/front.jpg"
+            alt="Basha Guest Rooms Front View"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ROOMS -->
+    <section id="rooms">
+      <h2 class="section-title" data-animate="fade-up">Room Types (Non-AC)</h2>
+      <p class="section-subtitle" data-animate="fade-up">
+        Choose from Non-AC Single, Double and Family rooms according to your budget
+        and comfort. Prices are approximate – contact us for latest rates.
+      </p>
+
+      <div class="room-grid">
+        <!-- Non-AC Single -->
+        <div class="room-card" data-animate="zoom-in">
+          <img
+            src="assets/images/room-single.jpg"
+            alt="Non-AC Single Room"
+          />
+          <div class="room-content">
+            <div class="room-title">Non-AC Single Room</div>
+            <div class="room-meta">
+              <span>1 Guest · Single Bed · Non-AC</span>
+              <span class="room-price">From ₹XXX / night</span>
+            </div>
+            <p>
+              Perfect for solo travellers who want a simple, clean and
+              budget-friendly stay close to main areas.
+            </p>
+            <div class="room-cta">
+              <button class="book" data-room="Non-AC Single">
+                Book This Room
+              </button>
+              <button class="whatsapp" data-whatsapp-room="Non-AC Single Room">
+                WhatsApp
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Non-AC Double -->
+        <div class="room-card" data-animate="zoom-in">
+          <img
+            src="assets/images/room-double.jpg"
+            alt="Non-AC Double Room"
+          />
+          <div class="room-content">
+            <div class="room-title">Non-AC Double Room</div>
+            <div class="room-meta">
+              <span>2 Guests · Double Bed · Non-AC</span>
+              <span class="room-price">From ₹XXX / night</span>
+            </div>
+            <p>
+              Ideal for two guests or couples looking for a comfortable stay
+              with all basic facilities.
+            </p>
+            <div class="room-cta">
+              <button class="book" data-room="Non-AC Double">
+                Book This Room
+              </button>
+              <button class="whatsapp" data-whatsapp-room="Non-AC Double Room">
+                WhatsApp
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Family Room -->
+        <div class="room-card" data-animate="zoom-in">
+          <img
+            src="assets/images/room-family.jpg"
+            alt="Family Room"
+          />
+          <div class="room-content">
+            <div class="room-title">Family Room</div>
+            <div class="room-meta">
+              <span>3–4 Guests · Spacious · Non-AC</span>
+              <span class="room-price">From ₹XXX / night</span>
+            </div>
+            <p>
+              Larger Non-AC rooms suitable for families or small groups travelling
+              together for darshan or functions.
+            </p>
+            <div class="room-cta">
+              <button class="book" data-room="Family Room">
+                Book This Room
+              </button>
+              <button class="whatsapp" data-whatsapp-room="Family Room">
+                WhatsApp
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery">
+      <h2 class="section-title" data-animate="fade-up">Photo Gallery</h2>
+      <p class="section-subtitle" data-animate="fade-up">
+        Add your hotel front view, reception and room images here.
+      </p>
+
+      <div class="gallery-grid">
+        <!-- Replace with real images in assets/images/ -->
+        <img
+          src="assets/images/front.jpg"
+          alt="Hotel front"
+          data-animate="fade-up"
+        />
+        <img
+          src="assets/images/reception.jpg"
+          alt="Reception"
+          data-animate="fade-up"
+        />
+        <img
+          src="assets/images/room-single.jpg"
+          alt="Single room"
+          data-animate="fade-up"
+        />
+        <img
+          src="assets/images/room-double.jpg"
+          alt="Double room"
+          data-animate="fade-up"
+        />
+        <img
+          src="assets/images/room-family.jpg"
+          alt="Family room"
+          data-animate="fade-up"
+        />
+      </div>
+    </section>
+
+  <!-- LOCATION -->
+<section id="location">
+  <h2 class="section-title" data-animate="fade-up">Location</h2>
+  <p class="section-subtitle" data-animate="fade-up">
+    Find Basha Guest Rooms on Google Maps and get directions easily.
+  </p>
+
+  <div class="location-layout">
+    
+    <!-- LEFT: GOOGLE MAP -->
+    <div class="map-container" data-animate="fade-right">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15558.24962602855!2d77.8087546!3d14.1665429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb0b72c8a787ad9%3A0x8f3f912dce274235!2sPuttaparthi%20Bus%20Stand!5e0!3m2!1sen!2sin!4v1702212345678!5m2!1sen!2sin"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <!-- RIGHT: ADDRESS + BUTTON -->
+    <div class="location-card" data-animate="fade-left">
+      <p><strong>Address:</strong><br />
+        Basha Guest Rooms,<br />
+        Puttaparthi, Andhra Pradesh 515134, India
+      </p>
+
+      <p>
+        Click the button below to open the exact location on Google Maps
+        and get live directions from your current place.
+      </p>
+
+      <a
+        href="https://maps.app.goo.gl/ZUeQH2UTrQgcN4Rs6"
+        target="_blank"
+        class="btn-outline"
+      >
+        Open in Google Maps
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- CSS FOR LAYOUT -->
+<style>
+  .location-layout {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+
+  .map-container {
+    flex: 1;
+    min-width: 300px;
+    aspect-ratio: 16/9;
+  }
+
+  .map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  .location-card {
+    flex: 0.6;
+    min-width: 260px;
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 12px;
+    line-height: 1.6;
+    border: 1px solid #ddd;
+  }
+
+  .btn-outline {
+    display: inline-block;
+    padding: 10px 18px;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    transition: 0.3s;
+  }
+
+  .btn-outline:hover {
+    background: black;
+    color: white;
+  }
+</style>
+
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2 class="section-title" data-animate="fade-up">Contact & Support</h2>
+      <p class="section-subtitle" data-animate="fade-up">
+        Call or message us anytime for bookings, queries, or special requests.
+      </p>
+
+      <div class="contact-layout">
+        <div class="contact-details" data-animate="fade-right">
+          <div>
+            <span>Phone:</span><br />
+            <a href="tel:+919963732682">+91 99637 32682</a>
+          </div>
+          <div>
+            <span>WhatsApp:</span><br />
+            <a
+              href="https://wa.me/919381214611?text=Hi%20Basha%20Guest%20Rooms,%20I%20have%20a%20question%20about%20room%20availability."
+              target="_blank"
+              >Chat on WhatsApp</a
+            >
+          </div>
+          <div>
+            <span>Email (optional):</span><br />
+            <a href="mailto:khaseemvali070@gmail.com">khaseemvali070@gmail.com</a>
+          </div>
+          <div>
+            <span>Booking Support:</span><br />
+            Available 24×7 (subject to room availability)
+          </div>
+
+          <div class="contact-links">
+            <a href="#booking">Book Now</a> |
+            <a href="https://maps.app.goo.gl/ZUeQH2UTrQgcN4Rs6" target="_blank"
+              >View on Google Maps</a
+            >
+          </div>
+        </div>
+
+        <div class="contact-form" data-animate="fade-left">
+          <h3 class="contact-form-title">
+            Quick Enquiry Form
+          </h3>
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="cname">Your Name</label>
+              <input
+                type="text"
+                id="cname"
+                name="cname"
+                required
+                placeholder="Your name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="cphone">Phone / WhatsApp</label>
+              <input
+                type="tel"
+                id="cphone"
+                name="cphone"
+                required
+                placeholder="Your mobile number"
+              />
+            </div>
+            <div class="form-group">
+              <label for="cmessage">Message</label>
+              <textarea
+                id="cmessage"
+                name="cmessage"
+                required
+                placeholder="Your question or request"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-primary">
+              Send via WhatsApp
+            </button>
+            <p class="booking-note">
+              This will open WhatsApp with your enquiry ready to send.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <span>© <span id="year"></span> Basha Guest Rooms. All rights reserved.</span>
+      <span>Website powered by HTML, CSS & JavaScript.</span>
+    </div>
+  </footer>
+
+  <!-- Main Script -->
+  <script src="assets/js/script.js" defer></script>
+</body>
+</html>
